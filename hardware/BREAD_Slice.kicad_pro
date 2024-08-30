@@ -696,6 +696,22 @@
     [
       "66043bca-a260-4915-9fce-8a51d324c687",
       "Root"
+    ],
+    [
+      "134c4f80-1fbc-4764-a894-22f604c6d155",
+      "MQ-X_GasSensor"
+    ],
+    [
+      "268aacf0-fff4-4b55-82e7-cfe6b1e82ea8",
+      "MQ-X_GasSensor1"
+    ],
+    [
+      "cab85a36-8baf-4341-ae39-bf466ad69f78",
+      "MQ-X_GasSensor2"
+    ],
+    [
+      "fe6fce18-dda6-45f5-ac36-63e733626505",
+      "MQ-X_GasSensor3"
     ]
   ],
   "text_variables": {}
