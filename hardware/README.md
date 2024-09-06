@@ -44,3 +44,8 @@
 | MG-6                | Liquefied Petroleum Gas (LPG)                                   | C₃H₈                   | 300～10000ppm (propane). Not in default build.                                                                    |
 | BME 280             | Ambient Temperature, Relative Humidity, Barometric Pressure     | N/A                    | Ambient Temp. -40 - +85 °C, Rel. Humidity 0 - 100 %, Baro. Pressure 300 - 1100 hPa                                 |
 | ENS160              | Total Volatile Organic Compounds, Equivalent Carbon Dioxide, Air Quality Index | TVOC, eCO₂, AQI        | TVOC 0 – 65,000 ppb, eCO2 400 – 65,000ppm (CO₂ equiv.), AQI-UBA 1 to 5 |
+
+### Parts List
+
+- SD conn: https://www.mouser.ca/ProductDetail/Molex/502570-0893?qs=xbccQsLEe0eiL%252BVgS3E4nA%3D%3D
+- SD level shifter: https://www.mouser.ca/ProductDetail/Texas-Instruments/TXB0104D?qs=oFXvjAmG9Eh0u9dpGkn5zg%3D%3D

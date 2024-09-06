@@ -712,6 +712,26 @@
     [
       "fe6fce18-dda6-45f5-ac36-63e733626505",
       "MQ-X_GasSensor3"
+    ],
+    [
+      "e7cc3cc4-19ed-4f5e-b141-abe0df9e4794",
+      "BME 280"
+    ],
+    [
+      "4ac9e41f-a249-416f-b60e-a5f5a1860956",
+      "ENS 160"
+    ],
+    [
+      "2b629e9e-b2ad-4a6d-9037-50f0899b6cc2",
+      "uSD Card Module"
+    ],
+    [
+      "e694580f-4afe-4f66-ab5c-4cae81fec964",
+      "RTC"
+    ],
+    [
+      "2f5b6331-fe72-4ecd-809e-6c5537e7b8a8",
+      "1.8V Regulator"
     ]
   ],
   "text_variables": {}

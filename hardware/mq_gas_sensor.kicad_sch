@@ -317,32 +317,32 @@
 		)
 	)
 	(junction
-		(at 132.08 86.36)
+		(at 171.45 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39f60c37-e738-4d62-a77c-09eb312d2747")
 	)
 	(junction
-		(at 161.29 91.44)
+		(at 142.24 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a25a002-470a-406f-b49a-96c67365aeb1")
 	)
 	(junction
-		(at 161.29 101.6)
+		(at 142.24 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e255f0d-951f-48aa-980a-a6f7b4e2d14c")
 	)
 	(junction
-		(at 161.29 86.36)
+		(at 142.24 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1a5dfdd-cd2e-4f12-8413-dba7d0cf1356")
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 161.29 92.71)
+			(xy 142.24 91.44) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -352,7 +352,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 86.36) (xy 161.29 91.44)
+			(xy 142.24 86.36) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -362,7 +362,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 78.74) (xy 146.05 71.12)
+			(xy 157.48 78.74) (xy 157.48 71.12)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +372,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 171.45 71.12)
+			(xy 157.48 71.12) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -382,7 +382,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 60.96) (xy 132.08 60.96)
+			(xy 132.08 60.96) (xy 171.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 161.29 86.36)
+			(xy 147.32 86.36) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -402,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 146.05 101.6)
+			(xy 157.48 99.06) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 161.29 101.6)
+			(xy 157.48 101.6) (xy 142.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -422,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 101.6) (xy 171.45 101.6)
+			(xy 142.24 101.6) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 132.08 86.36)
+			(xy 171.45 60.96) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 86.36) (xy 171.45 86.36)
+			(xy 142.24 86.36) (xy 132.08 86.36)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 156.21 91.44)
+			(xy 142.24 91.44) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 135.89 86.36)
+			(xy 171.45 86.36) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +472,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 132.08 91.44)
+			(xy 171.45 86.36) (xy 171.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 161.29 101.6)
+			(xy 142.24 100.33) (xy 142.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -492,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 91.44) (xy 135.89 91.44)
+			(xy 171.45 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -502,96 +502,97 @@
 	)
 	(text "The sensor requires Vh as it is\nused to supply standard working\ntemperature to the sensor.\nCan be AC or DC."
 		(exclude_from_sim no)
-		(at 171.958 76.962 0)
+		(at 131.572 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3272dffb-4832-4d32-a5e5-3d8c8cc8d9b7")
 	)
 	(text "Analog output, can be scaled using RL."
 		(exclude_from_sim no)
-		(at 171.704 89.154 0)
+		(at 131.826 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "578ae3f7-31a9-4c76-b189-d2dee840e9ff")
 	)
 	(text "Vc is the circuit voltage, takes DC.\nRL needs to be set accordingly.\nDatasheet uses 4.7kohm for 5V."
 		(exclude_from_sim no)
-		(at 171.958 65.532 0)
+		(at 131.572 65.532 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dc96065b-a5a0-42d8-9ba5-59460820b1e7")
 	)
 	(hierarchical_label "Vc"
 		(shape input)
-		(at 171.45 60.96 0)
+		(at 132.08 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0eea9ea1-f1b6-4132-b1b1-689e5e159984")
 	)
 	(hierarchical_label "Vh"
 		(shape input)
-		(at 171.45 71.12 0)
+		(at 132.08 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "22d967d7-84d4-4aab-b35f-f6887a8101de")
 	)
 	(hierarchical_label "A_out"
 		(shape input)
-		(at 171.45 86.36 0)
+		(at 132.08 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3e58f417-a574-43b5-af5b-ba51dc4d5191")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 171.45 101.6 0)
+		(at 132.08 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bae29d86-de55-43a3-bd19-2d821fb5447c")
 	)
 	(symbol
 		(lib_id "Sensor_Gas:MQ-6")
-		(at 146.05 88.9 0)
+		(at 157.48 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7bd4f75f-9759-44f8-8d0f-daab4e518785")
-		(property "Reference" "U4"
-			(at 148.2441 76.2 0)
+		(property "Reference" "U2"
+			(at 155.2859 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +601,7 @@
 			)
 		)
 		(property "Value" "MQ-x"
-			(at 148.2441 78.74 0)
+			(at 155.2859 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +610,7 @@
 			)
 		)
 		(property "Footprint" "Sensor:MQ-6"
-			(at 147.32 100.33 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +619,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf"
-			(at 146.05 82.55 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,7 +628,7 @@
 			)
 		)
 		(property "Description" "Semiconductor Sensor for Flammable Gas"
-			(at 146.05 88.9 0)
+			(at 157.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,19 +657,19 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/134c4f80-1fbc-4764-a894-22f604c6d155"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/268aacf0-fff4-4b55-82e7-cfe6b1e82ea8"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/cab85a36-8baf-4341-ae39-bf466ad69f78"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/fe6fce18-dda6-45f5-ac36-63e733626505"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -676,7 +677,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 96.52 0)
+		(at 142.24 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -684,8 +686,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "980a180e-7e4d-4331-a998-d3ca9c191639")
-		(property "Reference" "R3"
-			(at 163.83 95.2499 0)
+		(property "Reference" "R8"
+			(at 139.7 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +696,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 163.83 97.7899 0)
+			(at 139.7 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.512 96.52 90)
+			(at 144.018 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 96.52 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +723,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 96.52 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,15 +740,19 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/268aacf0-fff4-4b55-82e7-cfe6b1e82ea8"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/cab85a36-8baf-4341-ae39-bf466ad69f78"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/fe6fce18-dda6-45f5-ac36-63e733626505"
-					(reference "R5")
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/134c4f80-1fbc-4764-a894-22f604c6d155"
+					(reference "R7")
 					(unit 1)
 				)
 			)
