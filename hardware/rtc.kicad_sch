@@ -1817,7 +1817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f9b1a5-49b4-44f5-bab9-d8b859881893")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 96.52 104.1399 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/e694580f-4afe-4f66-ab5c-4cae81fec964"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fdb6a96-f6dc-4805-9c80-ee9f2c740b1c")
-		(property "Reference" "R23"
+		(property "Reference" "R12"
 			(at 97.79 91.4399 0)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/e694580f-4afe-4f66-ab5c-4cae81fec964"
-					(reference "R23")
+					(reference "R12")
 					(unit 1)
 				)
 			)
