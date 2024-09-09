@@ -49,3 +49,4 @@
 
 - SD conn: https://www.mouser.ca/ProductDetail/Molex/502570-0893?qs=xbccQsLEe0eiL%252BVgS3E4nA%3D%3D
 - SD level shifter: https://www.mouser.ca/ProductDetail/Texas-Instruments/TXB0104D?qs=oFXvjAmG9Eh0u9dpGkn5zg%3D%3D
+- batt holder: https://www.mouser.ca/ProductDetail/Keystone-Electronics/3000?qs=Mn60vILZNNbcLh3ZnzbtUw%3D%3D

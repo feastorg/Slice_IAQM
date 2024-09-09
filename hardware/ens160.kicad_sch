@@ -539,12 +539,6 @@
 		(uuid "0ef4dc86-b490-49b5-aadb-354cbaaeddf7")
 	)
 	(junction
-		(at 208.28 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35a5548e-73ee-49a1-a1a4-ed2ba02d39a8")
-	)
-	(junction
 		(at 153.67 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -571,16 +565,6 @@
 			(type default)
 		)
 		(uuid "0149ea3d-2679-4d55-87b4-dfeeb119ae74")
-	)
-	(wire
-		(pts
-			(xy 208.28 95.25) (xy 214.63 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bfab25-d5c3-4420-80f8-79c765357f68")
 	)
 	(wire
 		(pts
@@ -644,16 +628,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 111.76) (xy 214.63 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f2e4f6-8724-4916-a8af-14f2a6bde17a")
-	)
-	(wire
-		(pts
 			(xy 165.1 74.93) (xy 167.64 74.93)
 		)
 		(stroke
@@ -664,16 +638,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.79) (xy 214.63 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436b0428-34d7-494c-81a1-8a34371a7925")
-	)
-	(wire
-		(pts
 			(xy 153.67 92.71) (xy 153.67 95.25)
 		)
 		(stroke
@@ -681,16 +645,6 @@
 			(type default)
 		)
 		(uuid "527000ab-62c6-4ef3-a098-040e5846e291")
-	)
-	(wire
-		(pts
-			(xy 200.66 95.25) (xy 208.28 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb9ed63-74c3-438d-a49d-c095d75e7465")
 	)
 	(wire
 		(pts
@@ -764,16 +718,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 95.25) (xy 200.66 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7a89fb-6335-4d69-b76d-b8935369a0d7")
-	)
-	(wire
-		(pts
 			(xy 176.53 72.39) (xy 176.53 80.01)
 		)
 		(stroke
@@ -804,16 +748,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 90.17) (xy 208.28 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d885c7d0-1467-45c7-9571-405e2af9b6c3")
-	)
-	(wire
-		(pts
 			(xy 107.95 63.5) (xy 107.95 67.31)
 		)
 		(stroke
@@ -831,16 +765,6 @@
 			(type default)
 		)
 		(uuid "d9e26432-3415-4622-80e3-7749b4d7f8db")
-	)
-	(wire
-		(pts
-			(xy 200.66 111.76) (xy 200.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcca919f-affd-4f50-b902-5cf2becde10a")
 	)
 	(wire
 		(pts
@@ -863,18 +787,6 @@
 		(uuid "ed318cea-3e74-413f-90a4-a15da88a8ecf")
 	)
 	(rectangle
-		(start 189.23 81.28)
-		(end 229.87 118.11)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3baaaeb9-6f31-43ae-8009-ec00f43ea802)
-	)
-	(rectangle
 		(start 81.28 57.15)
 		(end 186.69 118.11)
 		(stroke
@@ -885,18 +797,6 @@
 			(type none)
 		)
 		(uuid 498ec66d-efa4-4912-b789-5dd84d72f9f3)
-	)
-	(text "Pullup resistors"
-		(exclude_from_sim no)
-		(at 207.01 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.381)
-				(bold yes)
-			)
-		)
-		(uuid "25373506-c83e-450f-a154-4d6547b1b75c")
 	)
 	(text "ENS IC\n"
 		(exclude_from_sim no)
@@ -909,17 +809,6 @@
 			)
 		)
 		(uuid "393642c7-adbe-4b43-accf-f84fd8195f17")
-	)
-	(label "3V3"
-		(at 208.28 90.17 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "160e2bbe-ef93-40e6-9b86-fea78632763b")
 	)
 	(label "SCLK{slash}SCL"
 		(at 109.22 87.63 180)
@@ -954,17 +843,6 @@
 		)
 		(uuid "5d3a53fd-b98b-44c4-849a-a1534d071017")
 	)
-	(label "MOSI{slash}SDA"
-		(at 200.66 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ac8e3d1-3991-4ceb-83e4-4972529a39bc")
-	)
 	(label "3V3"
 		(at 107.95 63.5 0)
 		(fields_autoplaced yes)
@@ -975,17 +853,6 @@
 			(justify left bottom)
 		)
 		(uuid "a317c597-c122-497b-9cf7-9ac5002286cb")
-	)
-	(label "SCLK{slash}SCL"
-		(at 214.63 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a34e240f-6f6a-4567-a6fa-262b226bdb6a")
 	)
 	(label "GND"
 		(at 107.95 92.71 0)
@@ -1129,76 +996,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14a50309-5e26-4de4-84f1-9c0be8d34ecd")
-		(property "Reference" "PR5"
-			(at 203.2 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 203.2 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.882 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7d3cd67-0dab-4e1f-b029-b08ffb33d4e4")
-		)
-		(pin "1"
-			(uuid "3824ed89-d09c-408d-8b6f-fd120639e686")
-		)
-		(instances
-			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/4ac9e41f-a249-416f-b60e-a5f5a1860956"
-					(reference "PR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 107.95 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1207,7 +1004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b1435c2-4285-4214-815d-f9d1305b95a3")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 110.49 69.8499 0)
 			(effects
 				(font
@@ -1225,7 +1022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 106.172 71.12 90)
 			(effects
 				(font
@@ -1261,7 +1058,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/4ac9e41f-a249-416f-b60e-a5f5a1860956"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1294,7 +1091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 166.0652 87.63 0)
 			(effects
 				(font
@@ -1362,7 +1159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ENS160-BGLM:XDCR_ENS160-BGLM"
+		(property "Footprint" "KML-Custom:XDCR_ENS160-BGLM"
 			(at 130.81 82.55 0)
 			(effects
 				(font
@@ -1467,76 +1264,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 214.63 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1aab732-27bd-4224-82bf-883217d024c7")
-		(property "Reference" "PR6"
-			(at 217.17 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 217.17 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.852 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d2a5d7e-07b5-44df-a9dd-caf2db446a77")
-		)
-		(pin "1"
-			(uuid "0087217c-5590-4b8e-aa61-b82de43675f4")
-		)
-		(instances
-			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/4ac9e41f-a249-416f-b60e-a5f5a1860956"
-					(reference "PR6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 176.53 83.82 0)
 		(unit 1)
@@ -1563,7 +1290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 177.4952 87.63 0)
 			(effects
 				(font
