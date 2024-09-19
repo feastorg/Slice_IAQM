@@ -13367,7 +13367,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "B.SilkS")
 			(uuid "57968dc5-718a-4229-b3fc-c6ee04e2e4cb")
 			(effects
@@ -13379,7 +13379,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "7216c8ae-ef94-4a2e-a128-68d4cf662c5e")
 			(effects
@@ -13538,7 +13538,7 @@
 			(uuid "18e267dd-c752-4613-add3-931016ceba55")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "61ed7f50-b27c-4d1c-b361-f47fe25dbbe1")
 			(effects
@@ -17453,7 +17453,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "B.SilkS")
 			(uuid "7df9daa8-d992-4b50-a2d4-645e691df51e")
 			(effects
@@ -17465,7 +17465,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "B.Fab")
 			(uuid "348fea60-88f4-43fc-bb66-96f011a0773f")
 			(effects
@@ -17624,7 +17624,7 @@
 			(uuid "c82f13fe-1574-485a-b366-cd57e1a2bd74")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e75cf2f5-208b-4136-a5e4-a994122c2851")
 			(effects
@@ -19571,9 +19571,9 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
-		(at 171.4 90.8 0)
+		(at 169.1 87 -90)
 		(layer "F.Fab")
-		(uuid "83be16ec-c7ea-46b3-9ee9-432e15ab577d")
+		(uuid "bae56caa-af2a-4a75-84e3-7ee4d8c1312d")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19582,9 +19582,9 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
-		(at 169.1 87 -90)
+		(at 171.4 90.8 0)
 		(layer "F.Fab")
-		(uuid "e75cf2f5-208b-4136-a5e4-a994122c2851")
+		(uuid "dd9d2a32-154a-44b3-b259-c21936ba697d")
 		(effects
 			(font
 				(size 0.8 0.8)
