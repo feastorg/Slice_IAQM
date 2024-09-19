@@ -739,6 +739,10 @@
 		)
 		(instances
 			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/134c4f80-1fbc-4764-a894-22f604c6d155"
+					(reference "R6")
+					(unit 1)
+				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/268aacf0-fff4-4b55-82e7-cfe6b1e82ea8"
 					(reference "R7")
 					(unit 1)
@@ -749,10 +753,6 @@
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/fe6fce18-dda6-45f5-ac36-63e733626505"
 					(reference "R9")
-					(unit 1)
-				)
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/134c4f80-1fbc-4764-a894-22f604c6d155"
-					(reference "R6")
 					(unit 1)
 				)
 			)

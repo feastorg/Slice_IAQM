@@ -2543,7 +2543,7 @@
 				)
 			)
 		)
-		(symbol "Relay:SANYOU_SRD_Form_C"
+		(symbol "Relay:G5Q-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2556,7 +2556,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SANYOU_SRD_Form_C"
+			(property "Value" "G5Q-1"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -2565,7 +2565,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -2575,7 +2575,17 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2584,7 +2594,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(property "ki_keywords" "Miniature Single Pole Relay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2593,7 +2603,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_fp_filters" "Relay*SPDT*Omron*G5Q*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2602,16 +2612,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SANYOU_SRD_Form_C_0_0"
+			(symbol "G5Q-1_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -2625,7 +2626,7 @@
 					)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_0_1"
+			(symbol "G5Q-1_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -2768,11 +2769,9 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SANYOU_SRD_Form_C_1_1"
 				(polyline
 					(pts
-						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -2782,8 +2781,10 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "G5Q-1_1_1"
 				(pin passive line
-					(at 5.08 -7.62 90)
+					(at -5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2801,7 +2802,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -10019,6 +10020,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G5Q-1")
+		(at 217.17 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619a7f96-cf1f-467f-a5a7-7a342a79c45d")
+		(property "Reference" "K1"
+			(at 228.6 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5Q-1"
+			(at 228.6 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b4f4a38-3514-4477-8e66-c6be72062b47")
+		)
+		(pin "4"
+			(uuid "4d5ce57d-3862-49df-8472-1c0a9838a1ea")
+		)
+		(pin "2"
+			(uuid "e40ad19f-7bc1-407e-b624-c20f1d1cfd42")
+		)
+		(pin "3"
+			(uuid "9c0699bc-912d-4cfa-8990-a4543684dd58")
+		)
+		(pin "5"
+			(uuid "5bcf5342-d675-4ac3-acc2-f2d4d583f489")
+		)
+		(instances
+			(project ""
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
 		(at 91.44 176.53 0)
 		(unit 1)
@@ -10442,86 +10524,6 @@
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 217.17 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8491245f-e179-4a82-a4af-25c0ee2a0d05")
-		(property "Reference" "K2"
-			(at 228.6 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD_Form_C"
-			(at 228.6 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 217.17 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 217.17 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9da08816-fa3f-4a78-b74d-d70a69b5f354")
-		)
-		(pin "5"
-			(uuid "2249d477-01ff-4aca-90a0-5c87cb61ac8a")
-		)
-		(pin "3"
-			(uuid "b7afc881-f508-4b74-ac24-6b1767eb4a4d")
-		)
-		(pin "2"
-			(uuid "ffea76d6-92f5-4f2d-bd91-693447933635")
-		)
-		(pin "1"
-			(uuid "1b3d99fc-6cc9-45ef-a9d6-1ac18f0d479d")
-		)
-		(instances
-			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11632,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "H178CAD "
+		(property "Value" "H178CAD"
 			(at 132.588 168.148 90)
 			(effects
 				(font
