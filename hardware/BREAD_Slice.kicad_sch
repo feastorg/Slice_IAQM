@@ -4400,6 +4400,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 142.24 151.13)
@@ -4448,6 +4544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e2fac59-346b-4588-be61-18db3192a993")
+	)
+	(junction
+		(at 228.6 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "327cfbd2-b100-49b9-b380-3a2d9c2bf40b")
 	)
 	(junction
 		(at 41.91 111.76)
@@ -4836,6 +4938,16 @@
 			(type default)
 		)
 		(uuid "17c4398c-4e1d-4ae8-89b6-e5c6b3654f39")
+	)
+	(wire
+		(pts
+			(xy 25.4 125.73) (xy 25.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f0b85e-cd31-409e-8289-35a3296097f5")
 	)
 	(wire
 		(pts
@@ -5519,6 +5631,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 119.38) (xy 25.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72829c73-3b4f-4c93-9ffd-cd7b4cbc4ffc")
+	)
+	(wire
+		(pts
 			(xy 142.24 162.56) (xy 142.24 173.99)
 		)
 		(stroke
@@ -5879,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 142.24) (xy 236.22 142.24)
+			(xy 222.25 142.24) (xy 228.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6446,6 +6568,16 @@
 			(type default)
 		)
 		(uuid "ef9ce383-c2fe-4134-83af-578ff86da40b")
+	)
+	(wire
+		(pts
+			(xy 228.6 142.24) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f033e053-b293-440f-af0b-0e0b8b7d6e8d")
 	)
 	(wire
 		(pts
@@ -7082,6 +7214,17 @@
 		)
 		(uuid "057547d4-b752-4096-8408-ccad3f532096")
 	)
+	(label "Soft_CLK"
+		(at 63.5 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0aeefd92-24d9-4551-9c15-dc088c613075")
+	)
 	(label "ENS_SCL"
 		(at 80.01 45.72 0)
 		(fields_autoplaced yes)
@@ -7214,6 +7357,17 @@
 		)
 		(uuid "2abb7177-e88b-4001-8961-7d6db728c01d")
 	)
+	(label "Soft_DAT"
+		(at 63.5 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c8a451d-73c2-4da2-9a23-7b93a44bbd6c")
+	)
 	(label "BME_SCL"
 		(at 130.81 31.75 0)
 		(fields_autoplaced yes)
@@ -7247,17 +7401,6 @@
 		)
 		(uuid "478bfd3f-620a-4a21-86aa-b8d317887be4")
 	)
-	(label "Soft_DAT"
-		(at 63.5 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "48531ed6-2bcb-429b-9ae1-0a5414054afe")
-	)
 	(label "GS2"
 		(at 63.5 160.02 180)
 		(fields_autoplaced yes)
@@ -7279,17 +7422,6 @@
 			(justify left bottom)
 		)
 		(uuid "5aa208fa-986a-49b1-9737-7a738f73df64")
-	)
-	(label "Soft_CLK"
-		(at 63.5 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b468ffd-aa69-46ed-819e-0588406cbbb8")
 	)
 	(label "CD"
 		(at 16.51 162.56 0)
@@ -7674,7 +7806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fa66343")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 41.91 189.23 0)
 			(effects
 				(font
@@ -7724,7 +7856,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7739,7 +7871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fa67628")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 45.72 130.81 0)
 			(effects
 				(font
@@ -7789,7 +7921,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fe6d224")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 53.34 29.21 0)
 			(effects
 				(font
@@ -8484,7 +8616,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8499,7 +8631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fe6e4ca")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -8549,7 +8681,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8770,7 +8902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a51d68f-b58f-4708-9983-5023ce1bf64c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 189.23 62.23 0)
 			(effects
 				(font
@@ -8820,7 +8952,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8835,7 +8967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc50ef0-d347-483d-b920-c1d83d431a13")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 224.79 88.9 0)
 			(effects
 				(font
@@ -8885,7 +9017,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8900,7 +9032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c45b8e0-2ef9-4b3e-a0ce-09982bbd17eb")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 189.23 46.99 0)
 			(effects
 				(font
@@ -8950,7 +9082,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8965,7 +9097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e301a55-9dc2-4379-ab02-57b624edcd8c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 130.81 26.67 0)
 			(effects
 				(font
@@ -9015,7 +9147,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9118,7 +9250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a1d573c-7b53-4a21-af08-bec33c96c564")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 153.67 130.81 0)
 			(effects
 				(font
@@ -9168,7 +9300,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e2a40ae-db51-4d69-9963-f907c3339338")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -9233,7 +9365,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9393,7 +9525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20474a67-7c50-4101-b406-55cf578e8bbb")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -9443,7 +9575,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9606,7 +9738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3023a548-1367-43ca-b247-60199928977c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -9656,7 +9788,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9875,6 +10007,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46602199-94d5-4d83-af75-d654d7a885a5")
+		(property "Reference" "#FLG02"
+			(at 23.495 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ba367a4-a2cc-48fb-834a-7d55ae3100a8")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:AP63205")
 		(at 31.75 96.52 0)
 		(unit 1)
@@ -9963,7 +10162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "544aa5a1-a6ac-496d-b28e-03135bb8ccd4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 247.65 58.42 0)
 			(effects
 				(font
@@ -10013,7 +10212,73 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR035")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5720c4d1-c98d-49e0-b80a-66030e853992")
+		(property "Reference" "#PWR05"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ea0a32-21f0-4665-96a2-03e070a20ce4")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10092,7 +10357,7 @@
 			(uuid "5bcf5342-d675-4ac3-acc2-f2d4d583f489")
 		)
 		(instances
-			(project ""
+			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "K1")
 					(unit 1)
@@ -10179,7 +10444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65f4cf60-c6a3-43bc-a127-50d3ce245e08")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 193.04 153.67 0)
 			(effects
 				(font
@@ -10229,7 +10494,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10313,6 +10578,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 25.4 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "714a87b6-556d-4cf0-8241-d2ed28a0e4b9")
+		(property "Reference" "#PWR06"
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.527 132.6642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc80703-03cc-4f4c-87e5-2c02eec1486b")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 41.91 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10320,7 +10650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78397c31-dfa0-4b8b-8219-02e002c18346")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -10370,7 +10700,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10385,7 +10715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78973e35-813f-41c5-ac21-e738bb8be339")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 212.09 153.67 0)
 			(effects
 				(font
@@ -10435,7 +10765,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10611,7 +10941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "857a75e4-4de2-463d-a919-52a1a85229f5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 80.01 25.4 0)
 			(effects
 				(font
@@ -10661,7 +10991,74 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR018")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "949bc75b-7dfd-4e95-b51d-d3e766f263d7")
+		(property "Reference" "#FLG01"
+			(at 23.495 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V"
+			(at 21.59 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0850516a-4072-48ac-b2da-a1ed801564e5")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10676,7 +11073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fd0f1e3-775e-4fd3-b3ea-063f2f720919")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 247.65 77.47 0)
 			(effects
 				(font
@@ -10726,7 +11123,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10741,7 +11138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d5cc80-a8fa-441c-bc09-c8fc1f2ffd4d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 43.18 130.81 0)
 			(effects
 				(font
@@ -10791,7 +11188,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10806,7 +11203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1fa603b-d475-4dff-b7d4-180dca99d239")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 247.65 92.71 0)
 			(effects
 				(font
@@ -10856,7 +11253,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10871,7 +11268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3804e08-7236-48ff-8fcf-3d2722ae9888")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -10921,7 +11318,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10937,7 +11334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76b9644-3267-45f2-ab05-68a77376cdc8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 226.06 48.26 0)
 			(effects
 				(font
@@ -10987,7 +11384,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11002,7 +11399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9237090-15fe-4bd9-8607-3fdd3aa722cc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 142.24 181.61 0)
 			(effects
 				(font
@@ -11052,7 +11449,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11143,7 +11540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec6589c-044e-4d4f-9658-f70bddb45fab")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -11193,7 +11590,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11208,7 +11605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af71d3a9-8790-4b39-8ba1-d4dd04f4d1db")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 247.65 44.45 0)
 			(effects
 				(font
@@ -11258,7 +11655,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11274,7 +11671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0aac25a-8781-4ba1-9ce0-6f892fbacaff")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 30.48 40.64 0)
 			(effects
 				(font
@@ -11324,7 +11721,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11345,7 +11742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1e44e9a-918b-4d6b-840d-bef798029aa6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -11395,7 +11792,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11410,7 +11807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b599eb90-055b-48d9-9825-2ab9b3ccb29d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 48.26 83.82 0)
 			(effects
 				(font
@@ -11460,7 +11857,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11476,7 +11873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b60028a9-7041-4806-9371-125e2269331d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 52.07 95.25 0)
 			(effects
 				(font
@@ -11526,7 +11923,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11759,7 +12156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8ab9d5d-723f-4bd4-a778-6265b145bc8d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -11809,7 +12206,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11890,7 +12287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cccca199-7699-4c97-8f63-02d4a781037b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 76.2 29.21 0)
 			(effects
 				(font
@@ -11940,7 +12337,73 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR015")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 228.6 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd8e8f53-3673-4a60-a697-fae34413e918")
+		(property "Reference" "#FLG03"
+			(at 228.6 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "biHeatV"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79c5fdd6-e161-4377-b2ee-5386c56a9d77")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -12025,7 +12488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d338546a-9e76-4848-a082-c88009028837")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -12075,7 +12538,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12091,7 +12554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d415e98f-648d-46e4-ae27-f03794b776f7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 48.26 64.77 0)
 			(effects
 				(font
@@ -12141,7 +12604,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12163,7 +12626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d42f98a6-54f3-463a-a772-2f75951e6054")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 76.2 123.19 0)
 			(effects
 				(font
@@ -12213,7 +12676,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12303,7 +12766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deb62729-c3f4-4a63-a8a1-ddd53e0c4c75")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 247.65 25.4 0)
 			(effects
 				(font
@@ -12353,7 +12816,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12444,7 +12907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f48aac4e-a579-43dd-8a9e-05b848228c70")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 247.65 139.7 0)
 			(effects
 				(font
@@ -12494,7 +12957,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
