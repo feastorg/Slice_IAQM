@@ -6925,6 +6925,16 @@
 		)
 		(uuid "0172f305-ff7e-4e94-870f-1667e59afd60")
 	)
+	(text "NEEDS TO BE CHANGED TO 1.5V for \nMQ-9B DUAL CO CH4 SENSOR"
+		(exclude_from_sim no)
+		(at 230.124 150.876 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "12c67096-222f-4159-84ee-ef103eb9e335")
+	)
 	(text "LED is 2V fwd,  20 mA rated\n(5v - 2v) / 150ohm =  20 mA"
 		(exclude_from_sim no)
 		(at 137.922 183.134 0)
@@ -9592,7 +9602,7 @@
 		(fields_autoplaced yes)
 		(uuid "2652242f-bdfd-4285-8d2a-ef528f3cd86e")
 		(property "Reference" "C2"
-			(at 44.45 93.9736 0)
+			(at 44.45 93.9735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,8 +9610,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 44.45 96.5136 0)
+		(property "Value" "0.1u"
+			(at 44.45 96.5135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AP63205WU-7"
 			(at 31.75 96.52 0)
 			(effects
 				(font
