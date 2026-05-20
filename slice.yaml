@@ -1,0 +1,176 @@
+schema_version: "1.0"
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+id: "slice-iaqm"
+name: "Industrial Air Quality Monitor"
+status: "prototype"
+category: "sensing"
+
+summary: "Multi-sensor industrial air quality monitor with gas, VOC, temperature, humidity, and pressure sensing."
+description: null
+
+# ── Versioning ────────────────────────────────────────────────────────────────
+version:
+  hardware: "0.1.0"
+  firmware: null
+  manifest: "0.1.0"
+
+# ── Compatibility ─────────────────────────────────────────────────────────────
+compatibility:
+  slice_spec: ">=0.1.0 <0.2.0"
+  crumbs_protocol: null
+  anolis_provider_api: null
+
+# ── Hardware ──────────────────────────────────────────────────────────────────
+hardware:
+  mcu:
+    type: "dev-board-socket"
+    form_factor: "nano"
+    primary: "ATmega328P"
+    supported:
+      - "ATmega328P"
+  primary_ic:
+    manufacturer: "ScioSense"
+    part_number: "ENS160"
+  hw_gen_current: 1
+  hw_gen_supported: [1]
+  pcb:
+    layers: 2
+    thickness: "1.6mm"
+    copper_weight: "1oz"
+    dimensions: "70mm x 100mm"
+  connectors:
+    - ref: "J1"
+      type: "slice-bus-10pin"
+      purpose: "power-and-i2c"
+  mounting:
+    pattern: "slice-standard-v0"
+    hole_size: "M3"
+    inset: "5mm"
+  pcb_color_prototype: null
+  pcb_color_production: null
+  enclosure:
+    supported: false
+    path: null
+
+# ── Electrical ────────────────────────────────────────────────────────────────
+electrical:
+  input_voltage: "12V"
+  logic_voltage: "5V"
+  max_current: null
+  protection: null
+  isolation: null
+
+# ── Interfaces ────────────────────────────────────────────────────────────────
+interfaces:
+  host:
+    type: "i2c"
+    address_default: null
+    address_configurable: false
+  data:
+    inputs:
+      - name: "BME280"
+        type: "i2c-sensor"
+      - name: "ENS160"
+        type: "i2c-sensor"
+      - name: "MQ-7"
+        type: "analog-gas"
+      - name: "MQ-137"
+        type: "analog-gas"
+      - name: "MQ-8"
+        type: "analog-gas"
+      - name: "MQ-136"
+        type: "analog-gas"
+      - name: "MQ-2"
+        type: "analog-gas"
+      - name: "MQ-4"
+        type: "analog-gas"
+    outputs:
+      - name: "BUZZER"
+        type: "digital-alarm"
+      - name: "LED"
+        type: "digital-alarm"
+
+# ── Capabilities ──────────────────────────────────────────────────────────────
+capabilities:
+  - id: "gas_sensing"
+    channels: 6
+    control_modes: []
+  - id: "environmental_sensing"
+    channels: 1
+    control_modes: []
+  - id: "voc_sensing"
+    channels: 1
+    control_modes: []
+  - id: "data_logging"
+    channels: 1
+    control_modes: []
+
+# ── Firmware ──────────────────────────────────────────────────────────────────
+firmware: null
+
+# ── Protocol ──────────────────────────────────────────────────────────────────
+protocol: null
+
+# ── Software ──────────────────────────────────────────────────────────────────
+software: null
+
+# ── Artifacts ─────────────────────────────────────────────────────────────────
+artifacts:
+  schematic: "hardware/BREAD_Slice.kicad_sch"
+  pcb: "hardware/BREAD_Slice.kicad_pcb"
+  firmware: null
+  docs: null
+  bom: "hardware/iaqm_slice_BOM.ods"
+  gerbers: "hardware/Gerbers.zip"
+  pick_and_place: null
+  datasheets: []
+
+# ── Manufacturing ─────────────────────────────────────────────────────────────
+manufacturing: null
+
+# ── Validation ────────────────────────────────────────────────────────────────
+validation: null
+
+# ── Safety ────────────────────────────────────────────────────────────────────
+safety:
+  hazards:
+    - "MQ sensors contain heated coils — fire risk if improperly powered"
+  max_safe_voltage: "12V"
+  intended_environment: "industrial"
+  not_for:
+    - "human safety critical systems"
+    - "certified gas detection"
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+dependencies: null
+
+# ── Relations ─────────────────────────────────────────────────────────────────
+related: null
+
+# ── Maintainers ───────────────────────────────────────────────────────────────
+maintainers:
+  - name: "Cameron Brooks"
+    role: "owner"
+
+# ── License ───────────────────────────────────────────────────────────────────
+license:
+  hardware: "CERN-OHL-S-2.0"
+  firmware: null
+  software: null
+  docs: "CC-BY-4.0"
+
+# ── Repository ────────────────────────────────────────────────────────────────
+repository:
+  url: "https://github.com/feastorg/Slice_IAQM"
+
+# ── Metadata ──────────────────────────────────────────────────────────────────
+metadata:
+  created: "2026-05-19"
+  updated: "2026-05-19"
+  tags:
+    - "air-quality"
+    - "gas-sensor"
+    - "environmental"
+    - "industrial-monitoring"
+    - "data-logging"
