@@ -491,7 +491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kml-custom:DS3234S#"
+		(symbol "KMLib_Sensors:DS3234S_RTC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1716,7 +1716,7 @@
 		(uuid "baa47387-8693-44ad-9a2a-77798dbbd636")
 	)
 	(symbol
-		(lib_id "kml-custom:DS3234S#")
+		(lib_id "KMLib_Sensors:DS3234S_RTC")
 		(at 109.22 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -1747,7 +1747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KML-Custom:SOIC127P1032X265-20N"
+		(property "Footprint" "KMLib_IC_SMD:SOIC127P1032X265-20N"
 			(at 140.97 172.39 0)
 			(hide yes)
 			(show_name no)

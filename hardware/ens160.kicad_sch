@@ -300,7 +300,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kml-custom:ENS160-BGLM"
+		(symbol "KMLib_Sensors:ENS160-BGLM_Air_Quality"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1201,7 +1201,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kml-custom:ENS160-BGLM")
+		(lib_id "KMLib_Sensors:ENS160-BGLM_Air_Quality")
 		(at 130.81 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -1232,7 +1232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KML-Custom:XDCR_ENS160-BGLM"
+		(property "Footprint" "KMLib_IC_SMD:XDCR_ENS160-BGLM"
 			(at 130.81 82.55 0)
 			(hide yes)
 			(show_name no)

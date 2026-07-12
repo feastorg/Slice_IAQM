@@ -1146,7 +1146,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kml-custom:MicroSD_502570-0893"
+		(symbol "KMLib_Connectors:502570-0893_MicroSD_Molex"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3462,7 +3462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kml-custom:MicroSD_502570-0893")
+		(lib_id "KMLib_Connectors:502570-0893_MicroSD_Molex")
 		(at 147.32 76.2 0)
 		(unit 1)
 		(body_style 1)
