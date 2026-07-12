@@ -413,7 +413,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "ENS160-BGLM_0_0"
+			(symbol "ENS160-BGLM_Air_Quality_0_0"
 				(rectangle
 					(start -15.24 -15.24)
 					(end 15.24 12.7)

@@ -1269,7 +1269,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "MicroSD_502570-0893_1_1"
+			(symbol "502570-0893_MicroSD_Molex_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 38.1 -17.78)

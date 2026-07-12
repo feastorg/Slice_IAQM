@@ -614,7 +614,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "DS3234S#_1_1"
+			(symbol "DS3234S_RTC_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 30.48 -25.4)
