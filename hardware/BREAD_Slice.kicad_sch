@@ -3124,7 +3124,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:I2C_01x04"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3209,7 +3209,7 @@
 					)
 				)
 			)
-			(symbol "I2C_01x04_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 3.81 -6.35)
@@ -14230,7 +14230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:I2C_01x04")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 33.02 46.99 270)
 		(unit 1)
 		(body_style 1)
