@@ -557,7 +557,7 @@
 		(descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino Nano")
 		(property "Reference" "A1"
-			(at -3.224 -2.364 0)
+			(at -2.088 0.4 0)
 			(layer "F.SilkS")
 			(uuid "1a795e47-3615-4480-8d92-c795f5d947b7")
 			(effects
@@ -5458,7 +5458,7 @@
 		(at 173.3 136.132769)
 		(descr "<h3>WS2812B</h3>\n\n<p>Specifications:\n<ul><li>Pin count: 4</li>\n<li>Size: 5.0 x 5.0 mm</li>\n</ul></p>\n<p><b>Datasheet referenced for footprint:</b> <a href=\"http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf\">WS2812B</a></p>\n<p>Example device:\n<ul><li>WS2812B</li>")
 		(property "Reference" "D1"
-			(at 0 0.6 0)
+			(at 4.6 -2.6 0)
 			(layer "F.SilkS")
 			(uuid "dfdaad0d-b6f7-4088-a6ac-d34c4a540da0")
 			(effects
@@ -10062,7 +10062,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
 			(at 0.05 -1.9 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "1534cfb9-38ef-4f0a-96be-46259cf7567c")
 			(effects
 				(font
@@ -11691,7 +11691,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
 			(at -1.9875 -2.3 180)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "ddf2b170-3e15-4511-9594-8966f5a17230")
 			(effects
 				(font
@@ -11898,7 +11898,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
 			(at 0 1.82 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "87f3d0e7-d898-4e3b-8d0e-497539e4c430")
 			(effects
 				(font
@@ -13711,7 +13711,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
 			(at -1.8625 2.55 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "4ff8d32c-8121-4ae4-9ac2-0062fe28d95d")
 			(effects
 				(font
@@ -18683,7 +18683,7 @@
 		)
 	)
 	(gr_text "5V I2C \nConnector"
-		(at 150.198 131.8 0)
+		(at 153.3 128 90)
 		(layer "B.SilkS")
 		(uuid "798f7164-8fde-48a0-b760-450a5bdaf8cf")
 		(effects
