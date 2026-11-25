@@ -3493,7 +3493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KML-Custom:MicroSD_5025700893"
+		(property "Footprint" "KMLib_Connectors:5025700893"
 			(at 186.69 171.12 0)
 			(hide yes)
 			(show_name no)
