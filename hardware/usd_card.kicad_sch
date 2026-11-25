@@ -1708,6 +1708,12 @@
 		(uuid "3911e7d4-6e67-46e8-a705-23a72d751d78")
 	)
 	(junction
+		(at 205.74 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ee6598-088b-473c-92a2-1c4dda740910")
+	)
+	(junction
 		(at 96.52 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2081,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 205.74 78.74)
+			(xy 190.5 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 81.28) (xy 190.5 81.28)
+			(xy 205.74 81.28) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2371,13 +2377,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 73.66) (xy 205.74 78.74)
+			(xy 205.74 73.66) (xy 205.74 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3b04204-5659-4e37-93c1-f1675c6e7b5c")
+	)
+	(wire
+		(pts
+			(xy 205.74 81.28) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524a69e7-a0d1-43a0-9185-1e3375c8d688")
 	)
 	(wire
 		(pts
@@ -2408,6 +2424,16 @@
 			(justify left bottom)
 		)
 		(uuid "035c156d-ac82-457a-8e34-0c35335567dc")
+	)
+	(label "GND"
+		(at 194.31 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "065f682a-319f-4042-8a64-f7f4cd321bb4")
 	)
 	(label "3V3"
 		(at 99.06 58.42 90)
@@ -2641,7 +2667,7 @@
 	)
 	(hierarchical_label "CD"
 		(shape input)
-		(at 194.31 81.28 0)
+		(at 208.28 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
