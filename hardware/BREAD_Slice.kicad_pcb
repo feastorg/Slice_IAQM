@@ -18625,7 +18625,7 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nIndustrial Air\nQuality Monitor\nSLC_IAQM\nR2 11-2026"
+	(gr_text "BREAD Slice\nIndustrial Air\nQuality Monitor\nSLC_IAQM\nCam K Brooks\nR2 11-2026"
 		(at 162.5 121.5 0)
 		(layer "F.SilkS")
 		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")
